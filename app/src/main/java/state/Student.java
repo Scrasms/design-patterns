@@ -31,8 +31,9 @@ public class Student {
     }
 
     public void improveGrade() {
+        if (grade == "A") return;
         List<String> possible = List.of("A", "B", "C", "D", "E", "F");
-        grade = possible.get((possible.indexOf(grade) - 1) % 6);
+        grade = possible.get((possible.indexOf(grade) - 1));
     }
 
     public void work() {

@@ -1,4 +1,4 @@
-package factory;
+package factory.vehicle;
 
 // Concrete Product class
 public class Boat implements Vehicle {

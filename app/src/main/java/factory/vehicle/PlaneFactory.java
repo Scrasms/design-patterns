@@ -1,4 +1,4 @@
-package factory;
+package factory.vehicle;
 
 // Concrete Creator class
 public class PlaneFactory extends VehicleFactory {

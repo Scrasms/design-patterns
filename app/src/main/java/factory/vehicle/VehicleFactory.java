@@ -1,4 +1,4 @@
-package factory;
+package factory.vehicle;
 
 // Creator class that declares the factory method createVehicle
 public abstract class VehicleFactory {

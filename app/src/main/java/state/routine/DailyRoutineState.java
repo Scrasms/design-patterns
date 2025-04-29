@@ -1,4 +1,4 @@
-package state;
+package state.routine;
 
 // Generic State interface detailing what each Concrete State does
 public interface DailyRoutineState {

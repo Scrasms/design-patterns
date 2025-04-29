@@ -1,10 +1,11 @@
-package factory;
+package factory.fruit;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class FruitFactory {
     private String fruit;
+
     public FruitFactory(String fruit) {
         this.fruit = fruit;
     }

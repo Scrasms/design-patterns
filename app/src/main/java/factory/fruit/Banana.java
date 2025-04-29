@@ -1,4 +1,4 @@
-package factory;
+package factory.fruit;
 
 public class Banana implements Fruit {
 

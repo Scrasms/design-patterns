@@ -1,4 +1,4 @@
-package factory;
+package factory.vehicle;
 
 // Generic Product Interface
 public interface Vehicle {

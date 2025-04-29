@@ -1,4 +1,4 @@
-package vendingstate;
+package state.vendingmachine;
 
 public class SoldOutState implements SuperState {
     private VendingMachine machine;

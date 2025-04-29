@@ -1,4 +1,4 @@
-package state;
+package state.routine;
 
 // Concrete State
 public class CafeState implements DailyRoutineState {

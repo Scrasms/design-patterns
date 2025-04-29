@@ -17,5 +17,4 @@ public class SubtractNode implements CalculatorNode {
     public String print() {
         return left.print() + " - " + right.print();
     }
-    
 }

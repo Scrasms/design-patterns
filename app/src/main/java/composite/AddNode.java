@@ -17,5 +17,4 @@ public class AddNode implements CalculatorNode {
     public String print() {
         return left.print() + " + " + right.print();
     }
-    
 }

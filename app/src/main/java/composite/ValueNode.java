@@ -1,5 +1,6 @@
 package composite;
 
+// Leaf Component Class
 public class ValueNode implements CalculatorNode {
     private double val;
 

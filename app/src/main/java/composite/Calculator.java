@@ -1,5 +1,6 @@
 package composite;
 
+// Client class that operates on Composite nodes
 public class Calculator {
 //            +
 //           / \

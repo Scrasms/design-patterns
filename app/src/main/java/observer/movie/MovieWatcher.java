@@ -1,4 +1,4 @@
-package observer;
+package observer.movie;
 
 // Generic Observer interface
 public interface MovieWatcher {

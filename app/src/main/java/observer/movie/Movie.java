@@ -1,4 +1,4 @@
-package observer;
+package observer.movie;
 
 import java.util.ArrayList;
 import java.util.List;

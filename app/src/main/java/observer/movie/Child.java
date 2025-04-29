@@ -1,4 +1,4 @@
-package observer;
+package observer.movie;
 
 // Conrete Observer
 public class Child implements MovieWatcher {

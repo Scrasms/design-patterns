@@ -1,4 +1,4 @@
-package statePattern;
+package gumballstate;
 
 public class VendingMachine {
     private SuperState state;
@@ -52,7 +52,7 @@ public class VendingMachine {
         // ItemSelectedState
         first.swipeCard();
         first.cancel();
-        first. dispense();
+        first.dispense();
         first.selectItem();
         // PayState
         System.out.println("\n");

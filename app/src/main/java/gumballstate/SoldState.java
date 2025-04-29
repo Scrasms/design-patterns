@@ -1,4 +1,4 @@
-package statePattern;
+package gumballstate;
 
 public class SoldState implements SuperState {
     private VendingMachine machine;
@@ -24,5 +24,4 @@ public class SoldState implements SuperState {
         machine.setState(new ItemSelectedState(machine));
         return "Enjoy!";
     }
-   
 }

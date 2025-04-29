@@ -1,4 +1,4 @@
-package statePattern;
+package gumballstate;
 
 public class ItemSelectedState implements SuperState {
     private VendingMachine machine;
@@ -28,5 +28,4 @@ public class ItemSelectedState implements SuperState {
     public String dispense() {
         return "Haven't selected item";
     }
-   
 }

@@ -1,4 +1,4 @@
-package statePattern;
+package gumballstate;
 
 public interface SuperState {
     public String swipeCard();

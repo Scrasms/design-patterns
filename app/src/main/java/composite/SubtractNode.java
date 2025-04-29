@@ -1,5 +1,6 @@
 package composite;
 
+// Composite Component Class
 public class SubtractNode implements CalculatorNode {
     private CalculatorNode left;
     private CalculatorNode right;
@@ -8,6 +9,7 @@ public class SubtractNode implements CalculatorNode {
         this.left = left;
         this.right = right;
     }
+
     @Override
     public double evaluate() {
         return left.evaluate() - right.evaluate();
@@ -17,5 +19,4 @@ public class SubtractNode implements CalculatorNode {
     public String print() {
         return left.print() + " - " + right.print();
     }
-    
 }

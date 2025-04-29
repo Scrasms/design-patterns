@@ -1,4 +1,4 @@
-package gumballstate;
+package vendingstate;
 
 public interface SuperState {
     public String swipeCard();

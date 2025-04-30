@@ -1,6 +1,6 @@
-package template.ai;
+package template.war.ai;
 
-import template.Location;
+import template.war.Location;
 
 // Abstract class that contains the template method
 public abstract class GameAI {

@@ -1,6 +1,6 @@
-package template;
+package template.war;
 
-import template.ai.GameAI;
+import template.war.ai.GameAI;
 
 // Random class not part of the Template Method structure
 public class Location {

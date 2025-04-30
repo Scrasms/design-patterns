@@ -1,9 +1,10 @@
 package factory.tsexpress;
 
-public class TeaFactory implements DrinksFactory {
+import factory.tsexpress.black.BlackTea;
+import factory.tsexpress.green.GreenTea;
 
-    @Override
-    public Drink makeDrink(String ice, String sugar, String topping) {
-        return new Tea(ice, sugar, topping);
-    }
+public interface TeaFactory {
+    public BlackTea createBlackTea(String sugar, String ice);
+    public GreenTea createGreenTea(String sugar, String ice);
 }
+

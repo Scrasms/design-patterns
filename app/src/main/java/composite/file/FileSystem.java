@@ -28,6 +28,6 @@ public class FileSystem {
         FileSystemNode stuff = new DirectoryNode("stuff", List.of(mc, pword, billy));
         FileSystemNode root = new DirectoryNode("root", List.of(code, stuff));
 
-        System.out.println(root.inOrderTraversal());
+        System.out.println(root.preOrderTraversal());
     }
 }

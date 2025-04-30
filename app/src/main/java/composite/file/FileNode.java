@@ -8,7 +8,7 @@ public class FileNode implements FileSystemNode {
         this.name = name;
     }
 
-    public String inOrderTraversal() {
+    public String preOrderTraversal() {
         return name;
     }
 }

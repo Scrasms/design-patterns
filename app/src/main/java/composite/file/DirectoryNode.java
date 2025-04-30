@@ -17,10 +17,10 @@ public class DirectoryNode implements FileSystemNode {
         this.children = children;
     }
 
-    public String inOrderTraversal() {
+    public String preOrderTraversal() {
         // Map list of children to list of path names, reduce all path names into one string
         return children.stream()
-                       .map(FileSystemNode::inOrderTraversal)
+                       .map(FileSystemNode::preOrderTraversal)
                        .reduce(name, (acc, curr) -> acc + "/" + curr);
     }
 }

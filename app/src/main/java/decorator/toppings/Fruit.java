@@ -1,10 +1,13 @@
-package decorator;
+package decorator.toppings;
+
+import decorator.Cake;
+import decorator.CakeDecorator;
 
 // Concrete Decorator class containing additional behaviour to be added to a component class
-public class Icing extends CakeDecorator {
-    public static final double PRICE = 0.8;
+public class Fruit extends CakeDecorator {
+    public static final double PRICE = 3.5;
 
-    public Icing(Cake wrappee) {
+    public Fruit(Cake wrappee) {
         super(wrappee);
     }
 
@@ -15,6 +18,6 @@ public class Icing extends CakeDecorator {
 
     @Override
     public String getToppings() {
-        return super.getToppings() + " icing";
+        return super.getToppings() + " fruits";
     }
 }

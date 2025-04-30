@@ -1,8 +1,10 @@
-package decorator;
+package decorator.cakes;
+
+import decorator.Cake;
 
 // Concrete Component class representing the object to be decorated
-public class CupCake implements Cake {
-    public static final double PRICE = 5.5;
+public class CheeseCake implements Cake {
+    public static final double PRICE = 9.45;
 
     @Override
     public double getPrice() {
@@ -11,6 +13,6 @@ public class CupCake implements Cake {
 
     @Override
     public String getToppings() {
-        return "The cupcake has:";
+        return "The cheesecake has:";
     }
 }

@@ -1,4 +1,7 @@
-package decorator;
+package decorator.toppings;
+
+import decorator.Cake;
+import decorator.CakeDecorator;
 
 // Concrete Decorator class containing additional behaviour to be added to a component class
 public class Candle extends CakeDecorator {

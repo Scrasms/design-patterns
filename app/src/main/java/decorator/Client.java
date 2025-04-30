@@ -1,8 +1,15 @@
 package decorator;
 
+import decorator.cakes.CheeseCake;
+import decorator.cakes.CupCake;
+import decorator.cakes.SpongeCake;
+import decorator.toppings.Candle;
+import decorator.toppings.Fruit;
+import decorator.toppings.Icing;
+import decorator.toppings.WhippedCream;
+
 // Client class that will use the Decorator Pattern
 public class Client {
-
     public static void main(String[] args) {
         Cake cupCake = new CupCake();
         cupCake = new Icing(cupCake);

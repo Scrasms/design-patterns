@@ -1,4 +1,4 @@
-package composite;
+package composite.calculator;
 
 // Generic Component interface, encompassing both Leaf and Composite nodes
 public interface CalculatorNode {

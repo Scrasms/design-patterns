@@ -1,4 +1,4 @@
-package composite;
+package composite.calculator;
 
 // Leaf Component Class
 public class ValueNode implements CalculatorNode {

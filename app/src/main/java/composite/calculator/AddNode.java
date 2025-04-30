@@ -1,4 +1,4 @@
-package composite;
+package composite.calculator;
 
 // Composite Component Class
 public class AddNode implements CalculatorNode {

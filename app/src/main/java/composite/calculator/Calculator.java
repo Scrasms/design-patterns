@@ -1,4 +1,4 @@
-package composite;
+package composite.calculator;
 
 // Client class that operates on Composite nodes
 public class Calculator {

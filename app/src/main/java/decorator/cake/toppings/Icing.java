@@ -1,7 +1,7 @@
-package decorator.toppings;
+package decorator.cake.toppings;
 
-import decorator.Cake;
-import decorator.CakeDecorator;
+import decorator.cake.Cake;
+import decorator.cake.CakeDecorator;
 
 // Concrete Decorator class containing additional behaviour to be added to a component class
 public class Icing extends CakeDecorator {

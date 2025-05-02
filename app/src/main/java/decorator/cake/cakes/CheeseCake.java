@@ -1,6 +1,6 @@
-package decorator.cakes;
+package decorator.cake.cakes;
 
-import decorator.Cake;
+import decorator.cake.Cake;
 
 // Concrete Component class representing the object to be decorated
 public class CheeseCake implements Cake {

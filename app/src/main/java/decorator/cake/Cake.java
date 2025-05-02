@@ -1,4 +1,4 @@
-package decorator;
+package decorator.cake;
 
 // Generic Component Interface used by both the decorator and component classes
 public interface Cake {

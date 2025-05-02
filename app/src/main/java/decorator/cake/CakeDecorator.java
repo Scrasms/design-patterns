@@ -1,4 +1,4 @@
-package decorator;
+package decorator.cake;
 
 // Base Decorator class that maintains a reference to the class being decorated
 // Note that I made this class abstract since it offers no functionality by itself but this is not required

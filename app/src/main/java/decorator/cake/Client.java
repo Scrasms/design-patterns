@@ -1,12 +1,12 @@
-package decorator;
+package decorator.cake;
 
-import decorator.cakes.CheeseCake;
-import decorator.cakes.CupCake;
-import decorator.cakes.SpongeCake;
-import decorator.toppings.Candle;
-import decorator.toppings.Fruit;
-import decorator.toppings.Icing;
-import decorator.toppings.WhippedCream;
+import decorator.cake.cakes.CheeseCake;
+import decorator.cake.cakes.CupCake;
+import decorator.cake.cakes.SpongeCake;
+import decorator.cake.toppings.Candle;
+import decorator.cake.toppings.Fruit;
+import decorator.cake.toppings.Icing;
+import decorator.cake.toppings.WhippedCream;
 
 // Client class that will use the Decorator Pattern
 public class Client {

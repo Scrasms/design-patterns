@@ -1,4 +1,4 @@
-package visitor;
+package visitor.billy;
 
 // Client that will interact with the pattern
 public class Client {

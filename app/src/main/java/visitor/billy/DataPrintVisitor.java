@@ -1,4 +1,4 @@
-package visitor;
+package visitor.billy;
 
 // Concrete Visitor class implementing different visiting behaviour
 public class DataPrintVisitor implements DataVisitor {

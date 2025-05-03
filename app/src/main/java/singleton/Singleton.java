@@ -12,7 +12,7 @@ public class Singleton {
 
     // synchronized keyword acts as a lock
     public static synchronized Singleton getInstance() {
-        // Create new instance or use existing one
+        // Double-checked locking (DCL) is more efficient but this is easier to implement
         if (instance == null) {
             instance = new Singleton();
         }

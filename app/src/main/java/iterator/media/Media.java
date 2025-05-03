@@ -1,4 +1,4 @@
-package iterator;
+package iterator.media;
 
 public class Media {
     private String name;

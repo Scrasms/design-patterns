@@ -1,4 +1,4 @@
-package iterator;
+package iterator.media;
 
 public class Client {
     public static void main(String[] args) {

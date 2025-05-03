@@ -1,4 +1,4 @@
-package iterator;
+package iterator.media;
 
 // Iterable collection interface
 public interface Library<T extends Media> {

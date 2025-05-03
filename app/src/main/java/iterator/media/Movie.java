@@ -1,4 +1,4 @@
-package iterator;
+package iterator.media;
 
 public class Movie extends Media {
     private String studio;

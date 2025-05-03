@@ -1,4 +1,4 @@
-package iterator;
+package iterator.media;
 
 // Iterator interface
 public interface Iterator<T> {

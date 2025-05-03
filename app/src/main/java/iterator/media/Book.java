@@ -1,4 +1,4 @@
-package iterator;
+package iterator.media;
 
 public class Book extends Media {
     private String author;

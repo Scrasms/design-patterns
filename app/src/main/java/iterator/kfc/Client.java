@@ -19,6 +19,7 @@ public class Client {
         sideOrder.addSide(new Sides("Coleslaw", 7, 0, true));
         sideOrder.addSide(new Sides("Slaw", 10, 5, false));
         sideOrder.addSide(new Sides("Potatoes and Gravy", 6, 9, true));
+        sideOrder.addSide(new Sides("Watermelon", 1, 10, true));
 
         Iterator<Sides> si = sideOrder.createIterator();
         while (si.hasNext()) {

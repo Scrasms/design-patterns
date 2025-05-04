@@ -12,5 +12,6 @@ public class Client {
         order.addCommand(new DropAnchorCommand(ship));
 
         order.executeCommands();
+        order.executeCommands();
     }
 }

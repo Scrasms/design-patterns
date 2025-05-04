@@ -12,8 +12,16 @@ public class CaptainOrder {
     }
 
     public void executeCommands() {
+        if (commands.size() == 0) {
+            System.out.println("No commands issued!");
+            return;
+        }
+
+        List<ShipCommand> toRemove = new ArrayList<>();
         for (ShipCommand c : commands) {
             c.execute();
+            toRemove.add(c);
         }
+        toRemove.forEach(c -> commands.remove(c));
     }
 }

@@ -1,4 +1,4 @@
-package command;
+package command.battleship;
 
 // Concrete Command class
 public class WeighAnchorCommand implements ShipCommand {

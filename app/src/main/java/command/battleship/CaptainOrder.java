@@ -1,4 +1,4 @@
-package command;
+package command.battleship;
 
 import java.util.ArrayList;
 import java.util.List;

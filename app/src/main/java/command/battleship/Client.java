@@ -1,4 +1,4 @@
-package command;
+package command.battleship;
 
 public class Client {
     public static void main(String[] args) {

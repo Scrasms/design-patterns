@@ -1,4 +1,4 @@
-package command;
+package command.battleship;
 
 // Receiver class that contains the logic the commands are retrieving
 public class Ship {

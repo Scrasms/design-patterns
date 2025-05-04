@@ -1,4 +1,4 @@
-package command;
+package command.battleship;
 
 // Command interface
 public interface ShipCommand {

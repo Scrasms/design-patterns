@@ -1,22 +1,22 @@
-package visitor.billy;
+package visitor.kevin;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 // Concrete Element class which is getting visited
-public class IntArray implements DataVisitable {
-    private List<Integer> array = new ArrayList<>();
+public class IntLinkedList implements DataVisitable {
+    private List<Integer> list = new LinkedList<>();
 
     public void add(int x) {
-        array.add(x);
+        list.add(x);
     }
 
     public int get(int index) {
-        return array.get(index);
+        return list.get(index);
     }
 
     public List<Integer> listAll() {
-        return new ArrayList<Integer>(array);
+        return new LinkedList<Integer>(list);
     }
 
     @Override
@@ -24,4 +24,3 @@ public class IntArray implements DataVisitable {
         visitor.visit(this);
     }
 }
-

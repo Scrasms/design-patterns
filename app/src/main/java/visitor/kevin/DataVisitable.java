@@ -1,4 +1,4 @@
-package visitor.billy;
+package visitor.kevin;
 
 // Element interface declaring a method to 'accept' Visitor classes
 public interface DataVisitable {

@@ -1,4 +1,4 @@
-package visitor.billy;
+package visitor.kevin;
 
 // Visitor interface providing methods to 'visit' all the Element classes
 public interface DataVisitor {
